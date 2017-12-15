@@ -25,7 +25,7 @@ try {
  
     //Recipients
     //Quien envia
-    $mail->setFrom('aviel.aldama@gmail.com', 'Mailer');
+    $mail->setFrom('aquielemailqueenvia@email', 'Mailer');
     //destinatario uno
     $mail->addAddress('correoquerecibira@email.com', 'User Name');     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
